@@ -1,12 +1,43 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example Portfolio</title>
+    <title>CSS練習</title>
+    <style>
+        body{
+            color: gray;
+            text-align:left;
+            background-color:aliceblue;
+        }
+        p{
+            color: red;
+        }
+        #headline{
+            color:aquamarine;
+        }
+        .main{
+            color:darkorange;
+        }
+        .main p span{
+            color:black;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello GitHub.io !</h1>
+    <div id="home_image">
+        <img src="@\img\home.png">
+    </div>
+    <div id="headline">
+        <h1>CSS入門</h1>
+        <p>これは段落です。</p>
+    </div>
+    <div class="main">
+        <h2>これは見出しです。</h2>
+        <p>これは<span class="light">例</span>です。</p>
+        <p>
+            <a href="https://saruwakakun.com/">ホームへ</a>
+            戻ります。
+        </p>
+    </div>
 </body>
 </html>
